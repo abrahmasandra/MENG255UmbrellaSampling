@@ -38,20 +38,43 @@ The aim following the computation of these biased distributions is to first unbi
 
 \section{WHAM}
 The weighted histogram analysis method (WHAM) is the method for unbiasing the biased distributions that is used in conjunction with umbrella sampling.
-\\\\
-\begin{align*}
-    \tilde{P}(q, s_k) = e^{\beta A_k} \int d^N r^N e^{-\beta U(r^N)} e^{- \beta W(f(r^N), s^{(k)})}\delta(f(r^N) - q) \\
-    e^{-\beta A_k} = \int d^N r^N e^{-\beta U(r^N)} e^{-\beta W(f(r^N), s^{(k)})} = e^{-\beta A_0} \left \langle e^{- \beta W(f(r^N), s^{(k)})} \right \rangle\\
-    e^{-\beta A_0} = \int d^N r^N e^{-\beta U(r^N)} = Z\\
-\end{align*}
-We can use this process to calculate the unbiased potential from the $k$-th window:
+
+\subsection{Unbiasing the Probabilities}
+We begin with biased probabilities:
+$$\tilde{P}(q, s_k) = e^{\beta A_k} \int d^N r^N e^{-\beta U(r^N)} e^{- \beta W(f(r^N), s^{(k)})}\delta(f(r^N) - q)$$
+We can then express the free energy due to each individual restraining potential, $A_k$, as follows:
+$$e^{-\beta A_k} = \int d^N r^N e^{-\beta U(r^N)} e^{-\beta W(f(r^N), s^{(k)})} = e^{-\beta A_0} \left \langle e^{- \beta W(f(r^N), s^{(k)})} \right \rangle$$
+Note the following:
+$$e^{-\beta A_0} = \int d^N r^N e^{-\beta U(r^N)} = Z$$
+We can use this process to calculate the unbiased potential from the $k$-th window as follows:
 $$ P_k(q) = e^{-\beta(A_k - A_0)} e^{\beta W\left(q, s^{(k)}\right)} \tilde{P}(q, s^{(k)}) $$
-We want to use the $k$ unbiased distribution estimates from the simulations to construct the global distribution $P(q)$ while minimizing statistical error.
+
+\subsection{Reconstructing the Global Distribution}
+Our aim is to use the $k$ unbiased distribution estimates from the simulations to construct the global distribution $P(q)$ while minimizing statistical error.
 We can set this up as follows:
 \begin{align*}
     P(q) = &\sum_{k=1}^n C_k(q) P_k(q)\\
     \text{subject to} &\sum_{k=1}^n C_k(q) = 1
 \end{align*}
-The aim is to optimize the statistical error of $P(q)$ while 
+The aim is to optimize the statistical error of $P(q)$ while satisfying the given constriant.
+
+\subsubsection{Statistical Error}
+We first aim to express the statistical error of each biased distribution using its corresponding histogram by the following:
+$$ \tilde{P}(q, s^{(k)}) \approx \frac{1}{n_k \Delta q} \tilde{H}_k(q) $$
+Where $\tilde{H}_k$ is the histogram from the $k$-th simulation, $n_k$ is the number of configurations sampled, and $\Delta q$ is the bin width.
+The statistical error in this distribution is then expressed as follows:
+$$ \tilde{\sigma}_k^2 = \epsilon_k(q) \frac{1}{n_k \Delta q} \tilde{H}_k(q)$$
+Where $\epsilon_k(q)$ is the error of the sample with respect to the actual biased distribution.
+\\\\
+We can propogate this error to estimate the error in the $k$-th unbiased distribution:
+\begin{align*}
+    P_k(q) &= e^{-\beta(A_k - A_0)} e^{\beta W\left(q, s^{(k)}\right)} \tilde{P}(q, s^{(k)})\\
+    \sigma_k^2 &= e^{-2 \beta (A_k - A_0)}e^{2 \beta W(q, s^{(k)})}\tilde{\sigma}_k^2
+\end{align*}
+Thus, the total statistical error in the global distribution will be:
+$$ \sigma^2 = \sum_{k=1}^n C_k^2(q) \sigma_k^2 $$
+
+\subsection{Minimizing the Statistical Error}
+To perform this minimization subject to the given constraint, we can use the Lagrange multipliers method:
 
 \end{document}

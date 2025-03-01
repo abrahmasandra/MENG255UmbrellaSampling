@@ -1,9 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1740781386.46941 "/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex" "math.pdf" "math" 1740781386.83322 0
-  "/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex" 1740781385.83776 3781 60ef6e50e449e516edad14d0102ed97d ""
+["pdflatex"] 1740783064.34072 "/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex" "math.pdf" "math" 1740783064.70527 0
+  "/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex" 1740783064.13869 5241 1c6a0d104cbd6809a057be19e6b34a47 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -16,6 +17,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
@@ -49,8 +51,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1729211062.07891 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1729210972 8221428 aca194ec02d259fb277023655ea79287 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "math.aux" 1740781386.79642 648 d0751cfc18b77ee8c0d8dd6a37bc9d1e "pdflatex"
-  "math.tex" 1740781385.83776 3781 60ef6e50e449e516edad14d0102ed97d ""
+  "math.aux" 1740783064.6664 1139 baf94e8e52ef6da8904c631af0a7e71c "pdflatex"
+  "math.tex" 1740783064.13869 5241 1c6a0d104cbd6809a057be19e6b34a47 ""
   (generated)
   "math.aux"
   "math.log"
