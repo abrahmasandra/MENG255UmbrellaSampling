@@ -2,6 +2,7 @@
 
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{subfig}
 
 \title{Umbrella Sampling + WHAM}
 \author{Henry Bloom, Arnav Brahmasandra}
@@ -100,5 +101,124 @@ Finally, plugging the $C_k(q)$ coefficients back into the equation for $P(q)$ pr
 
 Following the iterative solving of these equations, we can obtain the free energy from $P(q)$ through the following formula:
 $$ A(q) = -\frac{1}{\beta} \ln P(q) + A_0 $$
+
+
+\section{Systems}
+In this project, we apply umbrella sampling and WHAM to three main systems: a one-dimensional two-welled potential, a one-dimensional multi-welled potential, and a two-dimensional Muller-Brown potential. These energy landscapes are chosen to demonstrate the effectiveness of umbrella sampling and WHAM, when applied to systems with energy barriers that impede adequate sampling of configurational space in standard simulations. In all of these systems, we consider the only \textit{one} particle in the system, and the reaction coordinate is the position of this particle. Additionally, we consider the system to be in thermal equilibrium at a temperature of $T = 50K$, to demonstrate the effectiveness of the methods in sampling the potential energy surface at a low temperature.
+
+\subsection{1D Two-Welled Potential}
+
+We first consider a simple one-dimensional two-welled potential of the form:
+
+$$
+V(x) = 5(x-1)^8 - \epsilon_0 e^{-\frac{\epsilon_0(x-0.5)^2}{\sigma^2}} + \epsilon_1 e^{-\frac{\epsilon_1(x-1.0)^2}{\sigma^2}} - \epsilon_2 e^{-\frac{\epsilon_2(x-1.5)^2}{\sigma^2}}
+$$
+
+\begin{figure}%
+    \centering
+    \subfloat[\centering Two-Welled Potential]{{\includegraphics[width=0.46\textwidth]{images/two_well_V.png} }}%
+    \qquad
+    \subfloat[\centering Multi-Welled Potential]{{\includegraphics[width=0.46\textwidth]{images/multi_well_V.png} }}%
+    \caption{1D Potentials}%
+    \label{fig:1D_pots}%
+\end{figure}
+
+Where $\epsilon_0 = 5$, $\epsilon_1 = 3$, $\epsilon_2 = 4$, and $\sigma = 0.6$.
+
+This potential has two wells at $x = 0.5$ and $x = 1.5$, and a barrier at $x = 1.0$ as seen in Figure \ref{fig:1D_pots}
+
+\subsection{1D Multi-Welled Potential}
+
+We then consider a one-dimensional multi-welled potential of the form:
+
+\begin{align*}
+    V(x) = 5 \min_{i} \left((x - x_i)^8\right) - \sum_  {i=1}^{3} \epsilon_i e^{-\frac{\epsilon_i(x-x_i)^2}{\sigma^2}}
+\end{align*}
+
+Where $x_1 = 0.25$, $x_2 = 0.75$, $x_3 = 1.5$, $\epsilon_0 = 1.0$, $\epsilon_1 = 1.5$, $\epsilon_2 = 2.0$, and $\sigma = 0.2$.
+
+This potential has three wells at $x = 0.25$, $x = 0.75$, and $x = 1.5$, as seen in Figure \ref{fig:1D_pots}.
+
+\subsection{2D Muller-Brown Potential}
+
+Finally, we consider the two-dimensional Muller-Brown potential, which is a model potential energy surface that is often used to test optimization algorithms. The potential is given by:
+
+\begin{align*}
+    V(x, y) = \sum_{i=1}^{4} A_i e^{a_i(x - x_i)^2 + b_i(x - x_i)(y - y_i) + c_i(y - y_i)^2}
+\end{align*}
+
+Where $A_1 = -200$, $A_2 = -100$, $A_3 = -170$, $A_4 = 15$, $a_1 = -1$, $a_2 = -1$, $a_3 = -6.5$, $a_4 = 0.7$, $b_1 = 0$, $b_2 = 0$, $b_3 = 11$, $b_4 = 0.6$, $c_1 = -10$, $c_2 = -10$, $c_3 = -6.5$, $c_4 = 0.7$, $x_1 = 1$, $x_2 = 0$, $x_3 = -0.5$, $x_4 = -1$, $y_1 = 0$, $y_2 = 0.5$, $y_3 = 1.5$, $y_4 = 1$.
+
+\begin{figure}%
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/muller_brown_V.png}
+    \caption{2D Potential}%
+    \label{fig:2D_pot}%
+\end{figure}
+
+This potential has three minima and two saddle points, as seen in Figure \ref{fig:2D_pot}, and is often used for testinmg algorithms that explore transition states and barriers. 
+
+\section{Results}
+
+\subsection{1D Two-Welled Potential}
+
+We divided our one-dimensional two-welled potential into 100 windows, each with a biasing potential of the form $W(x, s) = \frac{1}{2} \kappa (x - s)^2$ with $\kappa = 2000$, where $s$ is the center of the window. We then ran MCMC simulations in each window, obtaining 100,000 samples for each window, resulting in biased distributions of $x$.
+
+
+\subsubsection{Sampling}
+
+\begin{figure}%
+    \centering
+    \subfloat[\centering Trace Plot]{{\includegraphics[width=0.46\textwidth]{images/two_well_V_trace_plot.png} }}%
+    \qquad
+    \subfloat[\centering Sampled Densities]{{\includegraphics[width=0.46\textwidth]{images/two_well_window_sample_dens.png} }}%
+    \caption{Confirmation of Window Sampling Success}%
+    \label{fig:converge_diag}%
+\end{figure}
+
+% \begin{figure}%
+%     \centering
+%     \includegraphics[width=0.6\textwidth]{images/two_well_V_trace_plot.png}
+%     \caption{Trace Plot}%
+%     \label{fig:trace_plot_two_well}%
+% \end{figure}
+
+In Figure \ref{fig:converge_diag}, we plot the trace plot of the biased distributions of $x$ for 10 windows. We can see that the samples are stable and oscillate around the center of the window, indicating that the biasing potential has effectively encouraged sampling in the regions of the potential that would otherwise be difficult to sample. This gives us confirmation that the biasing potential is working as intended.
+
+Additionally, we plot the sampled densities of $x$ for all the windows in Figure \ref{fig:converge_diag}. We can see that the sampling results in a relatively flat distribution, indicating that the biasing potential has effectively encouraged sampling in the regions of the potential that would otherwise be difficult to sample. In addition, the sampled densities overlap, indicating that our choice of $\kappa$, the biasing spring constant, was appropriate, and our computed free energy profile should be accurate.
+
+\subsubsection{Unbiasing and Free Energy Profile}
+
+Next, we applied WHAM to unbias the biased distributions and reconstruct the global distribution of $x$. We then calculated the free energy profile of the system as a function of $x$.
+
+\begin{figure}%
+    \centering
+    \subfloat[\centering Unbiased Probabilities]{{\includegraphics[width=0.51\textwidth]{images/two_well_wham.png} }}%
+    \qquad
+    \subfloat[\centering Free Energy Profile]{{\includegraphics[width=0.41\textwidth]{images/two_well_free_energy.png} }}%
+    \caption{Unbiased Densities and Free Energy Profile}%
+    \label{fig:unbiased_densities}%
+\end{figure}
+
+In Figure \ref{fig:unbiased_densities}, we plot the global unbiased probabilities of $x$ for every iteration of WHAM. We can see that the probabilities converge to a stable distribution, which is the true distribution of $x$ in the system (the red curve), which is given by $P(x) \propto e^{-\beta V(x)}$. This indicates that WHAM has successfully unbiased the biased distributions. Similarly, we see that the computed free energy profile of the system as a function of $x$ is accurate.
+
+\subsubsection{Comparison with Metroplis-Hastings}
+
+We also compared the energy profile obtained from umbrella sampling and WHAM with the energy profile obtained from a standard Metropolis-Hastings simulation. We ran a Metropolis-Hastings simulation for 1,000,000 steps, and calculated the free energy profile of the system as a function of $x$.
+
+\begin{figure}%
+    \centering
+    \subfloat[\centering Probability Distribution]{{\includegraphics[width=0.46\textwidth]{images/metro_hastings_density.png} }}%
+    \qquad
+    \subfloat[\centering Free Energy Profile]{{\includegraphics[width=0.46\textwidth]{images/metro_hastings_energy.png} }}%
+    \caption{Unbiased Densities and Free Energy Profile}%
+    \label{fig:metro_hastings_plot}%
+\end{figure}
+
+In Figure \ref{fig:metro_hastings_plot}, we plot the probability distribution of $x$ obtained from the Metropolis-Hastings simulation, and the potential energy profile of the system as a function of $x$. We can see that because of the high energy barrier in the potential, as well as the low temperature of the system, the standard Metropolis-Hastings simulation is unable to sample the potential energy surface effectively, and gets stuck in the local minima. This results in a free energy profile doesn't fully capture the entire domain of the system. In contrast, the free energy profile obtained from umbrella sampling and WHAM captures the entire domain of the system, and is able to accurately sample the potential energy surface.
+
+\subsection{1D Multi-Welled Potential}
+
+Similarly, we divided our one-dimensional multi-welled potential into 100 windows, each with a biasing potential of the same form as the two-welled potential. We then ran MCMC simulations in each window, obtaining $100,000$ samples for each window, resulting in biased distributions of $x$.
 
 \end{document}

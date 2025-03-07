@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.17)  6 MAR 2025 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.15)  6 MAR 2025 21:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex"
-(/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex
+**/Users/arnavb/Code/courses/Winter2025/modeling/finalproject/Writeup/math.tex
+(/Users/arnavb/Code/courses/Winter2025/modeling/finalproject/Writeup/math.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -105,71 +105,156 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen152
+\captionmargin=\dimen153
+\caption@leftmargin=\dimen154
+\caption@rightmargin=\dimen155
+\caption@width=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count274
+\c@continuedfloat=\count275
+)
+\c@KVtest=\count276
+\sf@farskip=\skip53
+\sf@captopadj=\dimen160
+\sf@capskip=\skip54
+\sf@nearskip=\skip55
+\c@subfigure=\count277
+\c@subfigure@save=\count278
+\c@lofdepth=\count279
+\c@subtable=\count280
+\c@subtable@save=\count281
+\c@lotdepth=\count282
+\sf@top=\skip56
+\sf@bottom=\skip57
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count274
+\l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box53
 ) (./math.aux)
 \openout1 = `math.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count275
-\scratchdimen=\dimen152
+\scratchcounter=\count284
+\scratchdimen=\dimen161
 \scratchbox=\box54
-\nofMPsegments=\count276
-\nofMParguments=\count277
+\nofMPsegments=\count285
+\nofMParguments=\count286
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count278
-\MPscratchDim=\dimen153
-\MPnumerator=\count279
-\makeMPintoPDFobject=\count280
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen162
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
 \everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) [1
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+ [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 68--72
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
 
  []
 
-[3] [4] (./math.aux)
+[3]
+<images/two_well_V.png, id=25, 609.9588pt x 393.8715pt>
+File: images/two_well_V.png Graphic file (type png)
+<use images/two_well_V.png>
+Package pdftex.def Info: images/two_well_V.png  used on input line 119.
+(pdftex.def)             Requested size: 158.70232pt x 102.47629pt.
+<images/multi_well_V.png, id=27, 625.8582pt x 393.8715pt>
+File: images/multi_well_V.png Graphic file (type png)
+<use images/multi_well_V.png>
+Package pdftex.def Info: images/multi_well_V.png  used on input line 121.
+(pdftex.def)             Requested size: 158.70232pt x 99.87396pt.
+ [4]
+<images/muller_brown_V.png, id=33, 597.6729pt x 505.1673pt>
+File: images/muller_brown_V.png Graphic file (type png)
+<use images/muller_brown_V.png>
+Package pdftex.def Info: images/muller_brown_V.png  used on input line 154.
+(pdftex.def)             Requested size: 207.0021pt x 174.96123pt.
+ [5 <./images/two_well_V.png> <./images/multi_well_V.png>]
+<images/two_well_V_trace_plot.png, id=40, 859.2903pt x 570.933pt>
+File: images/two_well_V_trace_plot.png Graphic file (type png)
+<use images/two_well_V_trace_plot.png>
+Package pdftex.def Info: images/two_well_V_trace_plot.png  used on input line 172.
+(pdftex.def)             Requested size: 158.70232pt x 105.438pt.
+<images/two_well_window_sample_dens.png, id=41, 859.2903pt x 570.933pt>
+File: images/two_well_window_sample_dens.png Graphic file (type png)
+<use images/two_well_window_sample_dens.png>
+Package pdftex.def Info: images/two_well_window_sample_dens.png  used on input line 174.
+(pdftex.def)             Requested size: 158.70232pt x 105.438pt.
+ [6 <./images/muller_brown_V.png> <./images/two_well_V_trace_plot.png> <./images/two_well_window_sample_dens.png>]
+<images/two_well_wham.png, id=48, 679.338pt x 426.393pt>
+File: images/two_well_wham.png Graphic file (type png)
+<use images/two_well_wham.png>
+Package pdftex.def Info: images/two_well_wham.png  used on input line 196.
+(pdftex.def)             Requested size: 175.9481pt x 110.43666pt.
+<images/two_well_free_energy.png, id=49, 392.4261pt x 298.4751pt>
+File: images/two_well_free_energy.png Graphic file (type png)
+<use images/two_well_free_energy.png>
+Package pdftex.def Info: images/two_well_free_energy.png  used on input line 198.
+(pdftex.def)             Requested size: 141.45126pt x 107.58302pt.
+<images/metro_hastings_density.png, id=50, 859.2903pt x 570.933pt>
+File: images/metro_hastings_density.png Graphic file (type png)
+<use images/metro_hastings_density.png>
+Package pdftex.def Info: images/metro_hastings_density.png  used on input line 211.
+(pdftex.def)             Requested size: 158.70232pt x 105.438pt.
+<images/metro_hastings_energy.png, id=51, 859.2903pt x 570.933pt>
+File: images/metro_hastings_energy.png Graphic file (type png)
+<use images/metro_hastings_energy.png>
+Package pdftex.def Info: images/metro_hastings_energy.png  used on input line 213.
+(pdftex.def)             Requested size: 158.70232pt x 105.438pt.
+ [7 <./images/two_well_wham.png> <./images/two_well_free_energy.png>] [8 <./images/metro_hastings_density.png> <./images/metro_hastings_energy.png>] (./math.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2002 strings out of 474116
- 30429 string characters out of 5743681
- 1934187 words of memory out of 5000000
- 24381 multiletter control sequences out of 15000+600000
- 563452 words of font info for 55 fonts, out of 8000000 for 9000
+ 3583 strings out of 474116
+ 61539 string characters out of 5743682
+ 1937187 words of memory out of 5000000
+ 25951 multiletter control sequences out of 15000+600000
+ 563798 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,65p,493b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on math.pdf (4 pages, 161799 bytes).
+ 69i,10n,79p,878b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on math.pdf (8 pages, 1593466 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
