@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.15)  7 MAR 2025 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.17)  7 MAR 2025 17:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/arnavb/Code/courses/Winter2025/modeling/finalproject/Writeup/math.tex
-(/Users/arnavb/Code/courses/Winter2025/modeling/finalproject/Writeup/math.tex
+**"/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex"
+(/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -229,19 +229,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/two_well_V_trace_plot.png, id=39, 859.2903pt x 570.933pt>
 File: images/two_well_V_trace_plot.png Graphic file (type png)
 <use images/two_well_V_trace_plot.png>
-Package pdftex.def Info: images/two_well_V_trace_plot.png  used on input line 172.
+Package pdftex.def Info: images/two_well_V_trace_plot.png  used on input line 166.
 (pdftex.def)             Requested size: 158.70232pt x 105.438pt.
 <images/two_well_window_sample_dens.png, id=40, 859.2903pt x 570.933pt>
 File: images/two_well_window_sample_dens.png Graphic file (type png)
 <use images/two_well_window_sample_dens.png>
-Package pdftex.def Info: images/two_well_window_sample_dens.png  used on input line 174.
+Package pdftex.def Info: images/two_well_window_sample_dens.png  used on input line 168.
 (pdftex.def)             Requested size: 158.70232pt x 105.438pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--182
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
 
  []
 
@@ -249,39 +249,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--182
 <images/two_well_wham.png, id=47, 679.338pt x 426.393pt>
 File: images/two_well_wham.png Graphic file (type png)
 <use images/two_well_wham.png>
-Package pdftex.def Info: images/two_well_wham.png  used on input line 187.
+Package pdftex.def Info: images/two_well_wham.png  used on input line 181.
 (pdftex.def)             Requested size: 155.24895pt x 97.44373pt.
 <images/two_well_free_energy.png, id=48, 714.7503pt x 426.393pt>
 File: images/two_well_free_energy.png Graphic file (type png)
 <use images/two_well_free_energy.png>
-Package pdftex.def Info: images/two_well_free_energy.png  used on input line 189.
+Package pdftex.def Info: images/two_well_free_energy.png  used on input line 183.
 (pdftex.def)             Requested size: 162.15042pt x 96.73454pt.
  [6 <./images/two_well_V_trace_plot.png> <./images/two_well_window_sample_dens.png> <./images/two_well_wham.png> <./images/two_well_free_energy.png>]
 <images/metro_hastings_density.png, id=56, 859.2903pt x 570.933pt>
 File: images/metro_hastings_density.png Graphic file (type png)
 <use images/metro_hastings_density.png>
-Package pdftex.def Info: images/metro_hastings_density.png  used on input line 204.
+Package pdftex.def Info: images/metro_hastings_density.png  used on input line 198.
 (pdftex.def)             Requested size: 158.70232pt x 105.438pt.
 <images/metro_hastings_energy.png, id=57, 859.2903pt x 570.933pt>
 File: images/metro_hastings_energy.png Graphic file (type png)
 <use images/metro_hastings_energy.png>
-Package pdftex.def Info: images/metro_hastings_energy.png  used on input line 206.
+Package pdftex.def Info: images/metro_hastings_energy.png  used on input line 200.
 (pdftex.def)             Requested size: 158.70232pt x 105.438pt.
 <images/multi_well_wham.png, id=58, 680.7834pt x 426.393pt>
 File: images/multi_well_wham.png Graphic file (type png)
 <use images/multi_well_wham.png>
-Package pdftex.def Info: images/multi_well_wham.png  used on input line 219.
+Package pdftex.def Info: images/multi_well_wham.png  used on input line 213.
 (pdftex.def)             Requested size: 155.24895pt x 97.23552pt.
 <images/multi_well_free_energy.png, id=59, 714.7503pt x 426.393pt>
 File: images/multi_well_free_energy.png Graphic file (type png)
 <use images/multi_well_free_energy.png>
-Package pdftex.def Info: images/multi_well_free_energy.png  used on input line 221.
+Package pdftex.def Info: images/multi_well_free_energy.png  used on input line 215.
 (pdftex.def)             Requested size: 162.15042pt x 96.73454pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./images/metro_hastings_density.png> <./images/metro_hastings_energy.png>] [8 <./images/multi_well_wham.png> <./images/multi_well_free_energy.png>] [9] (./math.aux)
+[7 <./images/metro_hastings_density.png> <./images/metro_hastings_energy.png>]
+<images/muller_brown_V.png, id=66, 597.6729pt x 505.1673pt>
+File: images/muller_brown_V.png Graphic file (type png)
+<use images/muller_brown_V.png>
+Package pdftex.def Info: images/muller_brown_V.png  used on input line 227.
+(pdftex.def)             Requested size: 207.0021pt x 174.96123pt.
+ [8 <./images/multi_well_wham.png> <./images/multi_well_free_energy.png> <./images/muller_brown_V.png>]
+<images/expected_2d.png, id=73, 591.8913pt x 505.1673pt>
+File: images/expected_2d.png Graphic file (type png)
+<use images/expected_2d.png>
+Package pdftex.def Info: images/expected_2d.png  used on input line 236.
+(pdftex.def)             Requested size: 158.70232pt x 135.44888pt.
+<images/2d_reconstructed.png, id=74, 591.8913pt x 505.1673pt>
+File: images/2d_reconstructed.png Graphic file (type png)
+<use images/2d_reconstructed.png>
+Package pdftex.def Info: images/2d_reconstructed.png  used on input line 238.
+(pdftex.def)             Requested size: 158.70232pt x 135.44888pt.
+ [9 <./images/expected_2d.png> <./images/2d_reconstructed.png>] [10] (./math.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -292,18 +309,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3617 strings out of 474116
- 62678 string characters out of 5743682
- 1936187 words of memory out of 5000000
- 25985 multiletter control sequences out of 15000+600000
+ 3641 strings out of 474116
+ 63383 string characters out of 5743681
+ 1937187 words of memory out of 5000000
+ 26009 multiletter control sequences out of 15000+600000
  563798 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,10n,79p,944b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,10n,79p,1023b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on math.pdf (9 pages, 2189191 bytes).
+Output written on math.pdf (10 pages, 2296480 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 150 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

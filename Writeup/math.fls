@@ -1,8 +1,8 @@
-PWD /Users/arnavb/Code/courses/Winter2025/modeling/finalproject/Writeup
+PWD /Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/arnavb/Code/courses/Winter2025/modeling/finalproject/Writeup/math.tex
+INPUT /Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex
 OUTPUT math.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -141,6 +141,21 @@ INPUT ./images/multi_well_free_energy.png
 INPUT ./images/multi_well_free_energy.png
 INPUT ./images/multi_well_free_energy.png
 INPUT ./images/multi_well_free_energy.png
+INPUT ./images/muller_brown_V.png
+INPUT ./images/muller_brown_V.png
+INPUT ./images/muller_brown_V.png
+INPUT ./images/muller_brown_V.png
+INPUT ./images/muller_brown_V.png
+INPUT ./images/expected_2d.png
+INPUT ./images/expected_2d.png
+INPUT ./images/expected_2d.png
+INPUT ./images/expected_2d.png
+INPUT ./images/expected_2d.png
+INPUT ./images/2d_reconstructed.png
+INPUT ./images/2d_reconstructed.png
+INPUT ./images/2d_reconstructed.png
+INPUT ./images/2d_reconstructed.png
+INPUT ./images/2d_reconstructed.png
 INPUT math.aux
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

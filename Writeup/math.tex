@@ -19,7 +19,7 @@ Umbrella sampling addresses this by introducing biasing potentials to enhance sa
 \begin{figure}[h]%
     \centering
     \includegraphics[width=0.6\textwidth]{images/motivation_img.png}
-    \caption{Free Energy Barrier}%
+    \caption{Free Energy Barrier \cite{compchem}}%
     \label{fig:free_energy_barrier}%
 \end{figure}
 
@@ -160,12 +160,6 @@ Where $x_1 = 0.25$, $x_2 = 0.75$, $x_3 = 1.5$, $\epsilon_0 = 1.0$, $\epsilon_1 =
 We divided our one-dimensional two-welled potential into 100 windows, each with a biasing potential of the form $W_k(x) = \frac{1}{2} \kappa (x - s_k)^2$ with $\kappa = 2000$, where $s_k$ is the center of the $k$th window, evenly spaced out across the range of $x$. We then ran MCMC simulations in each window, obtaining 100,000 samples for each window, resulting in biased distributions of $x$.
 
 \subsubsection{Sampling}
-% \begin{figure}%
-%     \centering
-%     \includegraphics[width=0.6\textwidth]{images/two_well_V_trace_plot.png}
-%     \caption{Trace Plot}%
-%     \label{fig:trace_plot_two_well}%
-% \end{figure}
 
 \begin{figure}[h]%
     \centering
@@ -226,9 +220,33 @@ As we can see from these plots, our method generalizes well to more complex pote
 
 \section{Next Steps}
 
+In the future, we plan to apply umbrella sampling and WHAM to more complex systems, increasing both the dimensionality and the number of particles in the system. For example, it would be interesting to apply this methodology to the two-dimensional Muller-Brown potential, shown in Figure \ref{fig:2D_pot}, which has three minima and two saddle points, and is often used for testing algorithms that explore transition states and barriers. 
+
+\begin{figure}[h]%
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/muller_brown_V.png}
+    \caption{Muller-Brown Potential}%
+    \label{fig:2D_pot}%
+\end{figure}
+
+We have been working on a multi-dimensional implementation of both our umbrella sampling and WHAM to handle this two-dimensional case. We have validated its ability to recreate the results from our 1D-only WHAM model, and our preliminary results in 2D are shown below:
+
+\begin{figure}[h]%
+    \centering
+    \subfloat[\centering Expected Probability Distribution]{{\includegraphics[width=0.46\textwidth]{images/expected_2d.png} }}%
+    \qquad
+    \subfloat[\centering Calculated Probability Distribution]{{\includegraphics[width=0.46\textwidth]{images/2d_reconstructed.png} }}%
+    \caption{Expected and Calculated Probability Distributions from Muller-Brown Potential}%
+    \label{fig:2d_results}%
+\end{figure}
+
+In Figure \ref{fig:2d_results}, we plot the true probability distribution of the two dimensional Muller-Brown potential, as well as the reconstructed distribution from umbrella sampling and WHAM. We can see that while the distributions are not identical, they are quite similar, indicating that our method is effective in sampling the potential energy surface of the system.
+
+Additionally, we could apply this methodology to many-particle systems such as liquid Argon to study the thermodynamics of the system. 
+
 \section{Conclusion}
 
-In this project, we applied umbrella sampling and WHAM to three main systems: a one-dimensional two-welled potential, a one-dimensional multi-welled potential, and a two-dimensional Muller-Brown potential. We demonstrated that umbrella sampling and WHAM are effective methods for sampling the potential energy surface of systems with high energy barriers that impede adequate sampling of configurational space in standard simulations. This method is particularly useful for systems at low temperatures, where the system is more likely to get stuck in local minima. We showed that umbrella sampling and WHAM are able to accurately sample the potential energy surface of the system, and calculate the free energy profile of the system as a function of the reaction coordinate.
+In this project, we applied umbrella sampling and WHAM to three main systems: a one-dimensional two-welled potential, a one-dimensional multi-welled potential, and a two-dimensional Muller-Brown potential. We demonstrated that umbrella sampling and WHAM are effective methods for sampling the potential energy surface of systems with high energy barriers that impede adequate sampling of configurational space in standard simulations. This method is particularly useful for systems at low temperatures, where the system is more likely to get stuck in local minima. We showed that umbrella sampling and WHAM are able to accurately sample the potential energy surface of the system, and calculate the free energy profile of the system as a function of the reaction coordinate, whereas traditional markov-chain monte-carlo methods suffer from poor ergodicity and are unable to sample the potential energy surface effectively.
 
 Such methodology can be applied to a wide range of physical systems, including molecular systems, materials, and biological systems, to sample the potential energy surface and calculate the free energy profile of the system. This can be used to study the thermodynamics and kinetics of the system, and to understand the behavior of the system at different temperatures and pressures.
 
@@ -243,6 +261,9 @@ MoBioChem (2020), \emph{Enhanced Sampling Methods - Chapter 2: Umbrella Sampling
 
 \bibitem{textbook}
 Johannes Kastner (2011), \emph{Umbrella sampling}
+
+\bibitem{compchem}
+CompChems (2024), \emph{An Introduction to Enhanced Sampling and Metadynamics}
 
 \end{thebibliography}
 
