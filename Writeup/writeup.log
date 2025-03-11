@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.17)  7 MAR 2025 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.17)  10 MAR 2025 19:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex"
-(/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex
+**"/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/writeup.tex"
+(/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/writeup.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -141,12 +141,12 @@ Package caption Info: Standard document class detected.
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box53
-) (./math.aux
+) (./writeup.aux
 
 LaTeX Warning: Label `fig:unbiased_densities' multiply defined.
 
 )
-\openout1 = `math.aux'.
+\openout1 = `writeup.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -298,7 +298,7 @@ File: images/2d_reconstructed.png Graphic file (type png)
 <use images/2d_reconstructed.png>
 Package pdftex.def Info: images/2d_reconstructed.png  used on input line 238.
 (pdftex.def)             Requested size: 158.70232pt x 135.44888pt.
- [9 <./images/expected_2d.png> <./images/2d_reconstructed.png>] [10] (./math.aux)
+ [9 <./images/expected_2d.png> <./images/2d_reconstructed.png>] [10] (./writeup.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -309,15 +309,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3641 strings out of 474116
- 63383 string characters out of 5743681
+ 3642 strings out of 474116
+ 63423 string characters out of 5743681
  1937187 words of memory out of 5000000
  26009 multiletter control sequences out of 15000+600000
  563798 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,10n,79p,1023b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,10n,79p,1026b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on math.pdf (10 pages, 2296480 bytes).
+Output written on writeup.pdf (10 pages, 2296494 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741390705.42406 "/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex" "math.pdf" "math" 1741390707.03181 0
-  "/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/math.tex" 1741390703.52057 20076 fcce77a224c2642b200f8b8d49e1f844 ""
+["pdflatex"] 1741650980.24543 "/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/writeup.tex" "writeup.pdf" "writeup" 1741650982.03463 0
+  "/Users/henrybloom/Desktop/MENG 25500/MENG255UmbrellaSampling/Writeup/writeup.tex" 1741390741.20291 20076 fcce77a224c2642b200f8b8d49e1f844 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -74,10 +74,10 @@
   "images/two_well_wham.png" 1741325487.4096 117870 8b5d4819c013a77c9e5522c16c859bd0 ""
   "images/two_well_window_sample_dens.png" 1741325487.41084 409651 6912e1b571192707f0ef8b5bd74f6803 ""
   "images/two_well_with_bias.png" 1741375448.73838 65826 a6ccb103a2fb3a0e22ccf9f39245a4f6 ""
-  "math.aux" 1741390706.9816 6140 8068eeb64cc709e5a835dd38b98f6f42 "pdflatex"
-  "math.tex" 1741390703.52057 20076 fcce77a224c2642b200f8b8d49e1f844 ""
+  "writeup.aux" 1741650981.98132 6140 8068eeb64cc709e5a835dd38b98f6f42 "pdflatex"
+  "writeup.tex" 1741390741.20291 20076 fcce77a224c2642b200f8b8d49e1f844 ""
   (generated)
-  "math.aux"
-  "math.log"
-  "math.pdf"
+  "writeup.aux"
+  "writeup.log"
+  "writeup.pdf"
   (rewritten before read)
