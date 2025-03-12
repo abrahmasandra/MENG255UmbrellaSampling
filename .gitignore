@@ -1,2 +1,4 @@
 *.gif
 *samples.txt
+*.npy
+.DS_Store
